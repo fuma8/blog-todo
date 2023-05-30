@@ -1,0 +1,63 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.App button{
+    color:rgb(249, 247, 247);
+    border-radius: 10px;
+    height:30px;
+    font-weight: bold;
+    background-color: rgb(246, 124, 124);
+    border        : 2px solid rgb(246, 124, 124);
+}
+.App button:hover{
+    box-shadow    : none;    
+    color         : rgb(246, 124, 124);   
+    background    : #ffffff; 
+}
+.form-section{
+    box-shadow: 1px 0px 3px #ad9797;
+    border-radius: 5px;
+    padding: 15px 100px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.single-thread {
+  margin-bottom: 20px;
+  box-shadow: 1px 0px 4px #f60505;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+.todo-listItems{
+    width: 100%;
+    max-width: 1000px;
+}
+
+.form-section button[type="submit"]{
+    background-color: white;
+    border: rgb(3, 126, 248);
+    color: rgb(3, 126, 248);
+}
+.form-section button[type="submit"] {
+    display       : inline-block;
+    border-radius : 10px;          /* 角丸       */    /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    /* padding       : 12px 12px;   余白       */
+    background    : rgb(3, 126, 248);     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+    border        : 2px solid rgb(3, 126, 248);    /* 枠の指定 */
+  }
+  .form-section button[type="submit"]:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    color         : rgb(3, 126, 248);     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+  }
