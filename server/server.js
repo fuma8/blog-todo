@@ -17,7 +17,7 @@ app.use("/api/blog/post", postRoute)
 
 
 mongoose.connect(
-    "mongodb+srv://todo:abc@cluster0.xztrffo.mongodb.net/?retryWrites=true&w=majority"
+    process.env.MONGO
 ).then(console.log("DB is connected.")
 ).catch((err) => console.log(err))
 

@@ -9,15 +9,19 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    username: {
+    password: {
         type: String,
         required: true,
         min: 6
     },
-    img: {
-        data: buffer,
-        contentType: String
+    isAdmin: {
+        type: Boolean,
+        default:false,
     }
+    // img: {
+    //     data: buffer,
+    //     contentType: String
+    // }
 })
 
 module.exports = mongoose.model("User", userSchema)
