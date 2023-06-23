@@ -32,6 +32,7 @@ function Header() {
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link href="/todo">Todo</Nav.Link>
+                  <Nav.Link href="/todoTrello">Todo_Trello</Nav.Link>
                   <Nav.Link href="/blog">Blog</Nav.Link>
                   <NavDropdown
                     title="Dropdown"

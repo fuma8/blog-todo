@@ -16,6 +16,7 @@ import Login from "./components/blog/Login"
 import Register from "./components/blog/Register"
 import Post from "./components/blog/Post"
 import Write from "./components/blog/Write"
+import TodoTrello from "./components/todoTrello/TodoTrello"
 
 const Layout = () => {
   return(
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "/todo",
         element:<Todo/> 
+      },
+      {
+        path: "/todoTrello",
+        element: <TodoTrello/>
       },
       {
         path: "/blog",

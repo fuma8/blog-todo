@@ -170,7 +170,7 @@
         flex-direction: column;
         justify-content: space-between;
         font-size: 12px;
-        color: #555;
+        color: #555555;
 
         h1{
           font-size: 20px;
@@ -210,4 +210,52 @@
       }
     }
   }
+.trello{
+  display: flex;
+  align-items: self-start;
+}
+.trello-section {
+  width: 400px;
+  /* border: 1px solid white; */
+  background: rgb(119, 154, 171);
+  background: linear-gradient(
+    126deg,
+    rgb(128, 156, 240) 0%,
+    rgb(13, 131, 220) 96%
+  );
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
 
+.trello-section-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 10px 0 20px;
+  text-align: center;
+}
+.add-button{
+  text-align: center;
+}
+.card {
+  padding: 30px;
+  background: rgb(15, 0, 15);
+  background: linear-gradient(126deg, rgb(254, 250, 254) 0%, rgb(239, 237, 239) 96%);
+  border-radius: 30px;
+  margin-top: 10px;
+  width: 200px;
+  text-align: center;
+}
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.name-input {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+}
