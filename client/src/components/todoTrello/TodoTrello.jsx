@@ -175,7 +175,7 @@ const TodoTrello = () => {
                           {...provided.draggableProps}
                           {...provided.dragHandleProps}
                         >
-                          <Card>{task.title}</Card>
+                          <Card>{task}</Card>
                         </div>
                       )}
                     </Draggable>
