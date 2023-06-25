@@ -1,0 +1,2 @@
+# blog-todo
+ReactとNode.Jsを使った、blogページとtodoページ(タスクを縦に追加する簡単なtodoとtrelloのようにタスクを管理するtodo)からなるwebアプリケーション。
